@@ -64,7 +64,7 @@ function Home() {
 
   return (
     <main className="bg-slate-100 min-h-screen">
-      <div className="flex justify-between px-10 md:px-24 items-center">
+      <div className="flex justify-between px-2 md:px-24 items-center">
         <SearchInput />
         <Dropdown />
       </div>
