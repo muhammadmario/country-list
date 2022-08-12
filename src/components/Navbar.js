@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="border-b border-slate-900/10 flex justify-between items-center h-16 px-24">
+    <nav className="border-b border-slate-900/10 flex justify-between items-center h-16 px-10 md:px-24">
       <h1 className="font-bold text-2xl">Where in the world?</h1>
 
       <div className="flex gap-2">
