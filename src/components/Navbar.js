@@ -2,10 +2,10 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="border-b border-slate-900/10 flex justify-between items-center h-16 px-10 md:px-24">
+    <nav className="border-b border-slate-900/10 flex justify-between items-center h-16 px-2 md:px-24">
       <h1 className="font-bold text-lg md:text-2xl">Where in the world?</h1>
 
-      <div className="flex gap-2">
+      <div className="flex gap-2 text-sm md:text-base">
         <svg
           className="w-6 h-6"
           fill="none"
