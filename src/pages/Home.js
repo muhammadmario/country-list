@@ -64,11 +64,11 @@ function Home() {
 
   return (
     <main className="bg-slate-100 min-h-screen">
-      <div className="flex justify-between px-24 items-center">
+      <div className="flex justify-between px-10 md:px-24 items-center">
         <SearchInput />
         <Dropdown />
       </div>
-      <div className="px-24 flex flex-wrap mt-6 items-center justify-between gap-20 ">
+      <div className="px-10 md:px-24 flex flex-wrap mt-6 items-center justify-center md:justify-between gap-20 ">
         {content}
       </div>
     </main>
